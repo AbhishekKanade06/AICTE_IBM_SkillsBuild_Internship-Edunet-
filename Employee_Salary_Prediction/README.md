@@ -36,7 +36,7 @@ This is a Streamlit web application that predicts whether a person's income exce
 - Categorical columns encoded using `LabelEncoder` (stored in `label_encoders.pkl`)
 
 ---
-## App:[Link Text] https://lf3rkxqw7bz2xiw4j9j83m.streamlit.app
+## App: https://lf3rkxqw7bz2xiw4j9j83m.streamlit.app
 
 ## 🛠 How to Run
 
