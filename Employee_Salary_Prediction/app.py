@@ -4,8 +4,8 @@ import joblib
 from sklearn.preprocessing import LabelEncoder
 
 # Load model and label encoders
-model = joblib.load("/Users/abhishekkanade/Documents/notebook/My_Project/AICTE_IBM_Internshipe(Edunet)/salary_prediction_model.pkl")
-encoders = joblib.load("/Users/abhishekkanade/Documents/notebook/My_Project/AICTE_IBM_Internshipe(Edunet)/label_encoders.pkl")  # Dict of LabelEncoders per column
+model = joblib.load("salary_prediction_model.pkl")
+encoders = joblib.load("label_encoders.pkl")  # Dict of LabelEncoders per column
 
 # Page config
 st.set_page_config(page_title="Employee Income Prediction", layout="centered")
